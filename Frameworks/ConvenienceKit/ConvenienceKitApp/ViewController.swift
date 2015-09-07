@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  MakeSchoolNotes
+//  ConvenienceKitApp
 //
-//  Created by Orcudy on 9/7/15.
-//  Copyright © 2015 Chris Orcutt. All rights reserved.
+//  Created by Benjamin Encz on 4/10/15.
+//  Copyright (c) 2015 Benjamin Encz. All rights reserved.
 //
 
 import UIKit
