@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620E7A9D1AF15E5400D2F6DF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E7A9A1AF15E5400D2F6DF /* TextView.swift */; };
+		620E7A9E1AF15E5400D2F6DF /* KeyboardNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E7A9B1AF15E5400D2F6DF /* KeyboardNotificationHandler.swift */; };
+		620E7A9F1AF15E5400D2F6DF /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E7A9C1AF15E5400D2F6DF /* DismissSegue.swift */; };
+		620E7AAF1AF162BA00D2F6DF /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620E7AAD1AF162BA00D2F6DF /* Nimble.framework */; };
+		620E7AB01AF162BA00D2F6DF /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620E7AAE1AF162BA00D2F6DF /* Quick.framework */; };
 		625441991AE179470029A633 /* Array+RemoveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625441981AE179470029A633 /* Array+RemoveObject.swift */; };
-		62745A7A1B21081A00B9D9F0 /* NSCacheSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62745A791B21081A00B9D9F0 /* NSCacheSwift.swift */; };
+		62A70CE41AF1635D00B09606 /* MKSTextViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A70CE31AF1635D00B09606 /* MKSTextViewSpec.swift */; };
 		62BD2B311ADC43100033B65F /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD2B301ADC43100033B65F /* Delay.swift */; };
 		62BD2B331ADC4F8F0033B65F /* TimelineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD2B321ADC4F8F0033B65F /* TimelineComponent.swift */; };
 		62EAE5E21AD82A000069D0EC /* ConvenienceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EAE5E11AD82A000069D0EC /* ConvenienceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62EAE5E81AD82A000069D0EC /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EAE5DC1AD82A000069D0EC /* ConvenienceKit.framework */; };
 		62EAE64A1AD82D670069D0EC /* PresentViewControllerAnywhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAE6491AD82D670069D0EC /* PresentViewControllerAnywhere.swift */; };
-		62EAE64E1AD82F820069D0EC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EAE64C1AD82F820069D0EC /* Nimble.framework */; };
-		62EAE64F1AD82F820069D0EC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EAE64D1AD82F820069D0EC /* Quick.framework */; };
 		62EAE6571AD8436B0069D0EC /* UIViewController+PresentAnywhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAE6541AD8432A0069D0EC /* UIViewController+PresentAnywhere.swift */; };
 		62EAE6611AD844C90069D0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAE6601AD844C90069D0EC /* AppDelegate.swift */; };
 		62EAE6631AD844C90069D0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAE6621AD844C90069D0EC /* ViewController.swift */; };
@@ -42,8 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620E7A9A1AF15E5400D2F6DF /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		620E7A9B1AF15E5400D2F6DF /* KeyboardNotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotificationHandler.swift; sourceTree = "<group>"; };
+		620E7A9C1AF15E5400D2F6DF /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		620E7AAD1AF162BA00D2F6DF /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		620E7AAE1AF162BA00D2F6DF /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
 		625441981AE179470029A633 /* Array+RemoveObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveObject.swift"; sourceTree = "<group>"; };
-		62745A791B21081A00B9D9F0 /* NSCacheSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCacheSwift.swift; sourceTree = "<group>"; };
+		62A70CE31AF1635D00B09606 /* MKSTextViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKSTextViewSpec.swift; sourceTree = "<group>"; };
 		62BD2B301ADC43100033B65F /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		62BD2B321ADC4F8F0033B65F /* TimelineComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineComponent.swift; sourceTree = "<group>"; };
 		62EAE5DC1AD82A000069D0EC /* ConvenienceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConvenienceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,8 +61,6 @@
 		62EAE5ED1AD82A000069D0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62EAE6481AD82D660069D0EC /* ConvenienceKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConvenienceKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		62EAE6491AD82D670069D0EC /* PresentViewControllerAnywhere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewControllerAnywhere.swift; sourceTree = "<group>"; };
-		62EAE64C1AD82F820069D0EC /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		62EAE64D1AD82F820069D0EC /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
 		62EAE6541AD8432A0069D0EC /* UIViewController+PresentAnywhere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PresentAnywhere.swift"; sourceTree = "<group>"; };
 		62EAE65C1AD844C90069D0EC /* ConvenienceKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvenienceKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EAE65F1AD844C90069D0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +84,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				62EAE5E81AD82A000069D0EC /* ConvenienceKit.framework in Frameworks */,
-				62EAE64E1AD82F820069D0EC /* Nimble.framework in Frameworks */,
-				62EAE64F1AD82F820069D0EC /* Quick.framework in Frameworks */,
+				620E7AAF1AF162BA00D2F6DF /* Nimble.framework in Frameworks */,
+				620E7AB01AF162BA00D2F6DF /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +102,6 @@
 		62BD2B2F1ADC43060033B65F /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				62745A791B21081A00B9D9F0 /* NSCacheSwift.swift */,
 				62BD2B301ADC43100033B65F /* Delay.swift */,
 				625441981AE179470029A633 /* Array+RemoveObject.swift */,
 			);
@@ -163,6 +168,7 @@
 		62EAE6471AD82D280069D0EC /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				62A70CE31AF1635D00B09606 /* MKSTextViewSpec.swift */,
 				62EAE6491AD82D670069D0EC /* PresentViewControllerAnywhere.swift */,
 				62EAE6481AD82D660069D0EC /* ConvenienceKitTests-Bridging-Header.h */,
 			);
@@ -172,8 +178,8 @@
 		62EAE64B1AD82F820069D0EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				62EAE64C1AD82F820069D0EC /* Nimble.framework */,
-				62EAE64D1AD82F820069D0EC /* Quick.framework */,
+				620E7AAD1AF162BA00D2F6DF /* Nimble.framework */,
+				620E7AAE1AF162BA00D2F6DF /* Quick.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +187,9 @@
 		62EAE6531AD843150069D0EC /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				620E7A9A1AF15E5400D2F6DF /* TextView.swift */,
+				620E7A9B1AF15E5400D2F6DF /* KeyboardNotificationHandler.swift */,
+				620E7A9C1AF15E5400D2F6DF /* DismissSegue.swift */,
 				62EAE6541AD8432A0069D0EC /* UIViewController+PresentAnywhere.swift */,
 				62BD2B321ADC4F8F0033B65F /* TimelineComponent.swift */,
 			);
@@ -285,7 +294,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Benjamin Encz";
 				TargetAttributes = {
 					62EAE5DB1AD82A000069D0EC = {
@@ -372,9 +381,11 @@
 			files = (
 				62EAE6571AD8436B0069D0EC /* UIViewController+PresentAnywhere.swift in Sources */,
 				62BD2B331ADC4F8F0033B65F /* TimelineComponent.swift in Sources */,
+				620E7A9F1AF15E5400D2F6DF /* DismissSegue.swift in Sources */,
+				620E7A9E1AF15E5400D2F6DF /* KeyboardNotificationHandler.swift in Sources */,
+				620E7A9D1AF15E5400D2F6DF /* TextView.swift in Sources */,
 				625441991AE179470029A633 /* Array+RemoveObject.swift in Sources */,
 				62BD2B311ADC43100033B65F /* Delay.swift in Sources */,
-				62745A7A1B21081A00B9D9F0 /* NSCacheSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A70CE41AF1635D00B09606 /* MKSTextViewSpec.swift in Sources */,
 				62EAE64A1AD82D670069D0EC /* PresentViewControllerAnywhere.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +464,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -537,7 +548,6 @@
 					"$(PROJECT_DIR)/Frameworks/Nimble.framework",
 					"$(PROJECT_DIR)/Frameworks/Quick.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -561,7 +571,6 @@
 					"$(PROJECT_DIR)/Frameworks/Nimble.framework",
 					"$(PROJECT_DIR)/Frameworks/Quick.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -576,6 +585,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -588,7 +598,6 @@
 					"$(PROJECT_DIR)/Frameworks/Nimble.framework",
 					"$(PROJECT_DIR)/Frameworks/Quick.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ConvenienceKitTests/UIKit/ConvenienceKitTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -605,6 +614,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ConvenienceKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -613,7 +623,6 @@
 					"$(PROJECT_DIR)/Frameworks/Nimble.framework",
 					"$(PROJECT_DIR)/Frameworks/Quick.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ConvenienceKitTests/UIKit/ConvenienceKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvenienceKitApp.app/ConvenienceKitApp";
@@ -630,7 +639,6 @@
 				);
 				INFOPLIST_FILE = ConvenienceKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -641,7 +649,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConvenienceKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin-Encz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
