@@ -70,7 +70,7 @@ public class TimelineComponent <T: Equatable, S: TimelineComponentTarget where S
   }
   
   public func removeObject(object: T) {
-    self.content.removeObject(object)
+    ConvenienceKit.removeObject(object, fromArray: &self.content)
     currentRange.endIndex = self.currentRange.endIndex - 1
     target?.tableView.reloadData()
   }
